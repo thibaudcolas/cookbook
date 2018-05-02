@@ -1,5 +1,20 @@
 # Contribution guidelines
 
+## Branching
+
+Create your own branches from `master` and use a descriptive prefix:
+
+```sh
+# For bug fixes, ideally finishing with the ticket number.
+fix/<branch name>-<ticket number>
+# For features, as well finishing with the ticket number if there is one.
+feature/<branch name>-<ticket number>
+# For general non-functional improvements (eg. developer tooling, CI)
+chore/<branch name>-<ticket number>
+```
+
+When you're done with your work, create a pull request and find another teammate to review the changes.
+
 ## Code reviews
 
 We do code reviews to ensure our work is of good quality, and to share knowledge. Reviews come in all shapes and sizes – from thorough point-by-point pull request reviews in GitLab to simple discussion of the proposed changes.
