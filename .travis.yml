@@ -1,0 +1,13 @@
+language: node_js
+cache:
+  directories:
+  - node_modules
+install:
+- echo 'nothing to install, sweet'
+script:
+- echo 'it works!'
+branches:
+  except:
+  - gh-pages
+notifications:
+  email: false
