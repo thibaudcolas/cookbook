@@ -26,3 +26,13 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
     *   Pull request template: [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md)
 *   **Tooling**
     *   [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
+
+## Contribute
+
+Contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Codemate](https://www.codemate.com/) has waived all copyright and related or neighboring rights to this work.
