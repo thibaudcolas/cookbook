@@ -41,3 +41,14 @@ When presenting code for review, or reviewing code, follow these guidelines:
 ### Code reviews in practice
 
 We use GitLab’s [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) feature or GitHub’s [Pull Requests](https://help.github.com/articles/requesting-a-pull-request-review/) for most of our work, and do code reviews there with **Merge request approvals / Pull request reviews**. You will use this on a daily basis, take some time to learn how best to leverage those tools.
+
+---
+
+### Useful resources to go further
+
+If you want to invest in figuring out the best guidelines and workflow for your team, here are useful resources to look at so you can have more informed conversations about your particular situation.
+
+*   [Code Reviews: Just Do It](https://blog.codinghorror.com/code-reviews-just-do-it/) by Jeff Atwood, my absolute favorite
+*   The Flutter project has good [code review guidelines](https://flutter.io/design-principles/). I particularly like how they talk about the benefits of code reviews.
+*   Karumi has really nice pull request guidelines and templates as part of their [project quality assurance guidelines](https://github.com/Karumi/project-quality-assurance).
+*   Michael Lynch’s two-part article on doing code reviews [like a human](https://mtlynch.io/human-code-reviews-1/) is also well worth a read.
