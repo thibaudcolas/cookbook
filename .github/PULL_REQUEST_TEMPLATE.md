@@ -13,4 +13,4 @@ Here, please add a description of your pull request and instructions for the rev
 *   [ ] All new and existing tests pass.
 *   [ ] Linting passes.
 *   [ ] Consider updating documentation. If you don't, tell us why.
-*   [ ] List the browsers in which you tested your changes.
+*   [ ] List the environments / platforms in which you tested your changes.
