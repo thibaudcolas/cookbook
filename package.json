@@ -1,0 +1,35 @@
+{
+    "name": "cookbook",
+    "version": "0.1.0",
+    "description": "Recipes and best practices for awesome digital teams",
+    "author": "Thibaud Colas",
+    "license": "MIT",
+    "homepage": "https://github.com/thibaudcolas/cookbook",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thibaudcolas/cookbook.git"
+    },
+    "bugs": {
+        "url": "https://github.com/thibaudcolas/cookbook/issues"
+    },
+    "keywords": [
+        "cookbook",
+        "recipes",
+        "guidelines",
+        "code reviews",
+        "pull requests",
+        "best practices",
+        "programming",
+        "configuration",
+        "styleguide"
+    ],
+    "devDependencies": {
+        "prettier": "^1.13.7"
+    },
+    "scripts": {
+        "linter": "prettier --list-different",
+        "formatter": "prettier --write",
+        "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
+        "format": "npm run formatter -s -- '**/*.{md,css,js,json}'"
+    }
+}
