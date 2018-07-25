@@ -20,12 +20,12 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
 
 ## Contents
 
-*   **Guidelines**
-    *   Contribution guidelines: [`CONTRIBUTING.md`](CONTRIBUTING.md)
-        *   Covers branching, and code reviews.
-    *   Pull request template: [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md)
-*   **Tooling**
-    *   [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
+-   **Guidelines**
+    -   Contribution guidelines: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+        -   Covers branching, and code reviews.
+    -   Pull request template: [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md)
+-   **Tooling**
+    -   [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
 
 ## Contribute
 
