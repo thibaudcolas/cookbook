@@ -16,7 +16,6 @@ max_line_length = 80
 
 # Documentation.
 [*.md]
-indent_size = 4
 max_line_length = 0
 trim_trailing_whitespace = false
 
