@@ -28,6 +28,7 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
     -   [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
     -   [nvm](https://github.com/creationix/nvm) configuration: [`.nvmrc`](.nvmrc)
     -   [`.gitignore`](.gitignore)
+    -   [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js)
 
 ## Contribute
 
