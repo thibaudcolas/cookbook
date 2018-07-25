@@ -27,6 +27,7 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
 -   **Tooling**
     -   [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
     -   [nvm](https://github.com/creationix/nvm) configuration: [`.nvmrc`](.nvmrc)
+    -   [`.gitignore`](.gitignore)
 
 ## Contribute
 
