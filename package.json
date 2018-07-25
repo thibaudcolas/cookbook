@@ -30,6 +30,7 @@
     "linter": "prettier --list-different",
     "formatter": "prettier --write",
     "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
-    "format": "npm run formatter -s -- '**/*.{md,css,js,json}'"
+    "format": "npm run formatter -s -- '**/*.{md,css,js,json}'",
+    "test:ci": "npm run lint -s"
   }
 }

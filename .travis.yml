@@ -1,11 +1,12 @@
+sudo: false
 language: node_js
 cache:
   directories:
   - node_modules
 install:
-- echo 'nothing to install, sweet'
+- npm install
 script:
-- echo 'it works!'
+- npm run test:ci
 branches:
   except:
   - gh-pages
