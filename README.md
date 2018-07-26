@@ -28,11 +28,38 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
   - [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
   - [nvm](https://github.com/creationix/nvm) configuration: [`.nvmrc`](.nvmrc)
   - [`.gitignore`](.gitignore)
-  - [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js)
+  - [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js), and integration via [npm scripts](package.json)
+  - [commitlint](https://github.com/marionebl/commitlint) configuration: [`commitlint.config.js`](commitlint.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
 
-## Contribute
+## Contributing
 
 Contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+### Install
+
+> Clone the project on your computer, and install [Node](https://nodejs.org). This project also uses [nvm](https://github.com/creationix/nvm).
+
+```sh
+# Use the correct Node version.
+nvm install
+# Then, install all project dependencies.
+npm install
+```
+
+### Working on the project
+
+> Everything mentioned in the installation process should already be done.
+
+```sh
+# Make sure you use the right node version.
+nvm use
+# Lint all of the files in the project.
+npm run lint
+# Re-formats all of the files in the project (with Prettier).
+npm run format
+# View other available commands with:
+npm run
+```
 
 ## License
 

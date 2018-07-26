@@ -24,10 +24,14 @@
     "styleguide"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
     "prettier": "^1.13.7"
   },
   "scripts": {
+    "postinstall": "./.githooks/deploy.sh",
     "linter": "prettier --list-different",
+    "linter:commit": "commitlint",
     "formatter": "prettier --write",
     "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
     "format": "npm run formatter -s -- '**/*.{md,css,js,json}'",
