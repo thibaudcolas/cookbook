@@ -30,11 +30,8 @@
   },
   "scripts": {
     "postinstall": "./.githooks/deploy.sh",
-    "linter": "prettier --list-different",
-    "linter:commit": "commitlint",
-    "formatter": "prettier --write",
-    "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
-    "format": "npm run formatter -s -- '**/*.{md,css,js,json}'",
+    "lint": "prettier --list-different '**/*.{md,css,js,json}'",
+    "format": "prettier --write '**/*.{md,css,js,json}'",
     "test:ci": "npm run lint -s"
   }
 }
