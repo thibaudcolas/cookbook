@@ -28,7 +28,8 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
   - [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
   - [nvm](https://github.com/creationix/nvm) configuration: [`.nvmrc`](.nvmrc)
   - [`.gitignore`](.gitignore)
-  - [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js), and integration via [npm scripts](package.json)
+  - [Git hooks](https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks) for various scenarios: [`.githooks`](.githooks)
+  - [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
   - [commitlint](https://github.com/marionebl/commitlint) configuration: [`commitlint.config.js`](commitlint.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
 
 ## Contributing
