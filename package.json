@@ -26,12 +26,12 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
-    "prettier": "^1.13.7"
+    "prettier": "^1.14.2"
   },
   "scripts": {
     "postinstall": "./.githooks/deploy.sh",
-    "lint": "prettier --list-different '**/*.{md,css,js,json}'",
-    "format": "prettier --write '**/*.{md,css,js,json}'",
+    "lint": "prettier --list-different '**/*.{md,css,js,json,yaml,yml}'",
+    "format": "prettier --write '**/*.{md,css,js,json,yaml,yml}'",
     "test:ci": "npm run lint -s"
   }
 }
