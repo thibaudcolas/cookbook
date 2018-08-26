@@ -19,14 +19,13 @@ MD_FULLY_STAGED=$(grep .md$ <<< "$FULLY_STAGED" || true)
 JSON_STAGED=$(grep .json$ <<< "$STAGED" || true)
 JSON_FULLY_STAGED=$(grep .json$ <<< "$FULLY_STAGED" || true)
 SNAPSHOT_STAGED=$(grep .snap$ <<< "$STAGED" || true)
-HTML_STAGED=$(grep .html$ <<< "$STAGED" || true)
 YAML_STAGED=$(grep -e '.yml$' -e '.yaml$' <<< "$STAGED" || true)
 YAML_FULLY_STAGED=$(grep -e '.yml$' -e '.yaml$' <<< "$FULLY_STAGED" || true)
 
-# Uncomment for debugging help.
+# Uncomment, and add more variables to the list, for debugging help.
 # tr ' ' '\n' <<< "STAGED $STAGED PATCH_STAGED $PATCH_STAGED FULLY_STAGED $FULLY_STAGED JS_STAGED $JS_STAGED JS_FULLY_STAGED $JS_FULLY_STAGED SNAPSHOT_STAGED $SNAPSHOT_STAGED"
 
-# Execute each pre-commit hooks
+# Execute each pre-commit hook.
 PROJECT_ROOT=`git rev-parse --show-toplevel`
 GIT_ROOT=`git rev-parse --git-dir`
 HOOKS=$PROJECT_ROOT/$GIT_ROOT/hooks/pre-commit.*

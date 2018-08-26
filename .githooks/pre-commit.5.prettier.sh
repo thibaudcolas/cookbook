@@ -21,7 +21,7 @@ fi
 
 if [ -n "$MD_STAGED" ];
 then
-    npx prettier --list-different $MD_STAGED
+  npx prettier --list-different $MD_STAGED
 fi
 
 if [ -n "$JSON_FULLY_STAGED" ];
@@ -32,7 +32,7 @@ fi
 
 if [ -n "$JSON_STAGED" ];
 then
-    npx prettier --list-different $JSON_STAGED
+  npx prettier --list-different $JSON_STAGED
 fi
 
 if [ -n "$YAML_FULLY_STAGED" ];
@@ -43,5 +43,5 @@ fi
 
 if [ -n "$YAML_STAGED" ];
 then
-    npx prettier --list-different $YAML_STAGED
+  npx prettier --list-different $YAML_STAGED
 fi
