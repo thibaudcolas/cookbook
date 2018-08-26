@@ -2,15 +2,15 @@ sudo: false
 language: node_js
 cache:
   directories:
-  - node_modules
+    - node_modules
 install:
-- npm install
-- npm install -g @commitlint/travis-cli@^7.0.0
+  - npm install
+  - npm install -g @commitlint/travis-cli@^7.0.0
 script:
-- npm run test:ci
-- commitlint-travis
+  - npm run test:ci
+  - commitlint-travis
 branches:
   except:
-  - gh-pages
+    - gh-pages
 notifications:
   email: false
