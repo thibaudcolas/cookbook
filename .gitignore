@@ -36,6 +36,7 @@ pids
 lib-cov
 coverage
 .coverage
+coverage_html_report
 .grunt
 .bundle
 webpack-stats.json
@@ -49,6 +50,7 @@ python_modules*
 bower_components
 .venv
 venv
+.tox
 $virtualenv.tar.gz
 $node_modules.tar.gz
 
