@@ -1,10 +1,5 @@
 {
   extends: ["config:base"],
-  node: {
-    // https://renovatebot.com/docs/node/#configuring-support-policy
-    supportPolicy: ["current"],
-    rangeStrategy: "replace",
-  },
   // https://renovatebot.com/docs/configuration-options/#commitbodytable
   commitBodyTable: true,
   // https://renovatebot.com/docs/configuration-options/#ignoredeps
@@ -38,4 +33,9 @@
       automerge: false,
     },
   ],
+  node: {
+    // https://renovatebot.com/docs/node/#configuring-support-policy
+    supportPolicy: ["current"],
+    rangeStrategy: "replace",
+  },
 }
