@@ -20,6 +20,8 @@
   },
   // https://renovatebot.com/docs/configuration-options/#prbodycolumns
   prBodyColumns: ["Package", "Update", "Type", "Change", "Sourcegraph"],
+  // https://renovatebot.com/docs/configuration-options/#rebasestaleprs
+  rebaseStalePrs: true,
   node: {
     major: {
       enabled: true,
