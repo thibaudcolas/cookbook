@@ -9,8 +9,14 @@ script:
   - git log -1 --pretty=%B >> latest.log && ./.git/hooks/commit-msg latest.log
   - npm run test:ci
   - npx commitlint-travis
+  - if [ "$TRAVIS_SECURE_ENV_VARS" == true ]; then npx danger ci --verbose; fi
 branches:
   except:
     - gh-pages
 notifications:
   email: false
+env:
+  global:
+    # Permissions: public_repo
+    # travis encrypt --org DANGER_GITHUB_API_TOKEN=<value>
+    - secure: "M3tKq/Ii0fn1W6emHvgVz/0CvAQUFHhIA3KODghONKm7mTOxTkzqcf0R9BCAUmssWGHdKE7jAcmeCHaBEYZTMD1CLHPkJOWbmeRgumSrTLPHpEO6WRmusqhQfLC1HRPb1TrRSZgyjpJbEoRHF1ahVohYy0LaxMbO/q8U3HkB3Xobj3nkDB5WxpgrLNv7hsCq35MFktEVElCgao5GurB/TubW9/05OV1Fuv/zShYm1PZdAth0mmI/vR6ASCuyPaW6r+SCwSL4tMMVg7wg65Br7rhjimOpZVzZWNisA9YJPfVgmKecMDlXLF7TxTJC82W2OOzRB7laXtbSSQehJZwVGHkzabtq+JuOSGfH1SViUjDsByALDLF2SifgqbNCmO+lbdXduI3kTSTxkydgvtjdnbyXIujz+/bv7OOolb8K4zL6yBjp6J0GaC8Lhvj/npDHKdnDrZl8RaK0l4CpcLYYD/Cc3L7swIljeOLxahAfAmDbIe1Scm3tBk2hXvRasl/CaVtQAcQW4oLHBylXH5kEjor0BDNz3OaeamBeIr+bAaPzB0o6wM/WqNkN69pr6cyKPL0CXPneND5PW5LEsc33KnNke3VzriiUDqF6r9mzOJMhSgvuLfdnOV8NG78ViM8KP7mCMm1je4Y9LR1lJlA9g4SA/T5UR5JWS3KqZtJS8Kc="
