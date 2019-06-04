@@ -5,10 +5,9 @@ cache:
     - node_modules
 install:
   - npm install
-  - npm install -g @commitlint/travis-cli@^7.0.0
 script:
   - npm run test:ci
-  - commitlint-travis
+  - npx commitlint-travis
 branches:
   except:
     - gh-pages
