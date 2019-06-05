@@ -31,6 +31,9 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
   - [Git hooks](https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks) for various scenarios: [`.githooks`](.githooks)
   - [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
   - [commitlint](https://github.com/marionebl/commitlint) configuration: [`commitlint.config.js`](commitlint.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
+- **Documentation**
+  - [Browser support targets](docs/targets.md#browser-support)
+  - [Accessibility targets](docs/targets.md#accessibility-targets)
 
 ## Contributing
 
