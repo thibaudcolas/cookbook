@@ -27,7 +27,7 @@
     "@commitlint/cli": "8.0.0",
     "@commitlint/config-conventional": "8.0.0",
     "@commitlint/travis-cli": "8.0.0",
-    "danger": "7.1.4",
+    "danger": "8.0.0",
     "prettier": "1.17.1"
   },
   "scripts": {
