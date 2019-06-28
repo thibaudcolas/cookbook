@@ -18,6 +18,8 @@
   prBodyColumns: ["Package", "Update", "Type", "Change", "Sourcegraph"],
   // https://renovatebot.com/docs/configuration-options/#rebasestaleprs
   rebaseStalePrs: true,
+  // https://renovatebot.com/docs/configuration-options/#schedule
+  schedule: ["every weekend"],
   node: {
     major: {
       enabled: true,
