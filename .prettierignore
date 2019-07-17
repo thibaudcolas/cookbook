@@ -1,1 +1,4 @@
 node_modules
+.tox
+.venv
+coverage_html_report
