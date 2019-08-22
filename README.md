@@ -25,7 +25,8 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
     - Covers basic project setup, branching, and code reviews.
   - Pull request template: [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md), for [GitHub PRs](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/) and [GitLab MRs](https://docs.gitlab.com/ce/user/project/description_templates.html#creating-merge-request-templates).
   - Issue templates: [`.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/).
-  - Security policy: [`SECURITY.md`](SECURITY.md)
+  - Security policy: [`docs/SECURITY.md`](docs/SECURITY.md)
+  - Support information: [`docs/SUPPORT.md`](docs/SUPPORT.md)
   - Code of conduct: [`docs/CODE_OF_CONDUCT.md`](docs/CODE_OF_CONDUCT.md)
 - **Tooling**
   - [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
