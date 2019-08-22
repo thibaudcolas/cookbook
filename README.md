@@ -22,8 +22,11 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
 
 - **Guidelines**
   - Contribution guidelines: [`CONTRIBUTING.md`](CONTRIBUTING.md)
-    - Covers branching, and code reviews.
+    - Covers basic project setup, branching, and code reviews.
   - Pull request template: [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md), for [GitHub PRs](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/) and [GitLab MRs](https://docs.gitlab.com/ce/user/project/description_templates.html#creating-merge-request-templates).
+  - Issue templates: [`.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/).
+  - Security policy: [`SECURITY.md`](SECURITY.md)
+  - Code of conduct: [`docs/CODE_OF_CONDUCT.md`](docs/CODE_OF_CONDUCT.md)
 - **Tooling**
   - [EditorConfig](http://editorconfig.org/) configuration: [`.editorconfig`](.editorconfig)
   - [nvm](https://github.com/creationix/nvm) configuration: [`.nvmrc`](.nvmrc)
