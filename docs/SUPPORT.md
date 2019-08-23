@@ -1,6 +1,6 @@
 # Support
 
-> This project follows a [Code of Conduct](../CODE_OF_CONDUCT.md).
+> This project follows a [Code of Conduct](CODE_OF_CONDUCT.md).
 > By interacting with this project, you agree to abide by its terms.
 
 Hi! 👋 To help us help you, please read through the following guidelines.
@@ -22,4 +22,4 @@ Please understand that people involved with this project often do so for fun, ne
 
 ## Contributions
 
-See [`CONTRIBUTING.md`](../CONTRIBUTING.md) on how to contribute.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) on how to contribute.
