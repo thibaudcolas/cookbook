@@ -21,7 +21,7 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
 ## Contents
 
 - **Guidelines**
-  - Contribution guidelines: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+  - Contribution guidelines: [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
     - Covers basic project setup, branching, and code reviews.
   - Pull request template: [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md), for [GitHub PRs](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/) and [GitLab MRs](https://docs.gitlab.com/ce/user/project/description_templates.html#creating-merge-request-templates).
   - Issue templates: [`.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/).
@@ -41,7 +41,7 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
 
 ## Contributing
 
-Contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions are always welcome! Please read the [contribution guidelines](docs/CONTRIBUTING.md) first.
 
 ### Install
 

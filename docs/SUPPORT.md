@@ -22,4 +22,4 @@ Please understand that people involved with this project often do so for fun, ne
 
 ## Contributions
 
-See [`CONTRIBUTING.md`](../CONTRIBUTING.md) on how to contribute.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) on how to contribute.

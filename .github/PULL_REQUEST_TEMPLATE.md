@@ -1,4 +1,4 @@
-<!-- See the general contribution guidelines in CONTRIBUTING.md -->
+<!-- See the general contribution guidelines in docs/CONTRIBUTING.md -->
 
 Here, please add a description of your pull request and instructions for the reviewer to verify your work. Pull requests without an adequate description will not be reviewed until one is added.
 
