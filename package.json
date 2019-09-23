@@ -31,7 +31,7 @@
     "prettier": "1.18.2"
   },
   "scripts": {
-    "postinstall": "./.githooks/deploy.sh",
+    "prepare": "./.githooks/deploy.sh",
     "lint": "prettier --check '**/?(.)*.{md,css,scss,js,json,yaml,yml,html}'",
     "format": "prettier --write '**/?(.)*.{md,css,scss,js,json,yaml,yml,html}'",
     "test:ci": "npm run lint -s"
