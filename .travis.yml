@@ -4,7 +4,7 @@ install:
   - npm ci
 script:
   # Test Git hooks in CI, to make sure script upgrades do not break them.
-  - npm run postinstall
+  - npm run prepare
   - ./.git/hooks/pre-commit
   - git log -1 --pretty=%B >> latest.log && ./.git/hooks/commit-msg latest.log
   - npm run test:ci
