@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "8.2.0",
     "@commitlint/travis-cli": "8.2.0",
     "danger": "9.2.4",
-    "prettier": "1.19.0"
+    "prettier": "1.19.1"
   },
   "scripts": {
     "prepare": "./.githooks/deploy.sh",
