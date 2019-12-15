@@ -86,6 +86,7 @@ eggs
 parts
 lib64
 .sass-cache
+.mypy_cache
 
 # -------------------------------------------------
 # Your own project's ignores
