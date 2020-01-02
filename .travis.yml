@@ -1,4 +1,4 @@
-sudo: false
+version: ~> 1.0
 language: node_js
 install:
   - npm ci
