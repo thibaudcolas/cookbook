@@ -2,3 +2,5 @@ node_modules
 .tox
 .venv
 coverage_html_report
+.pytest_cache
+.mypy_cache
