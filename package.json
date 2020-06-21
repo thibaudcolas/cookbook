@@ -24,9 +24,9 @@
     "styleguide"
   ],
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
-    "@commitlint/travis-cli": "8.3.5",
+    "@commitlint/cli": "9.0.1",
+    "@commitlint/config-conventional": "9.0.1",
+    "@commitlint/travis-cli": "9.0.1",
     "danger": "10.2.0",
     "prettier": "2.0.5"
   },
