@@ -1,6 +1,7 @@
 {
   "name": "cookbook",
   "version": "0.1.0",
+  "private": true,
   "description": "Recipes and best practices for awesome digital teams",
   "author": "Thibaud Colas",
   "license": "MIT",

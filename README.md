@@ -35,6 +35,11 @@ This cookbook is about helping **teams** succeed first and foremost, projects be
   - [Git hooks](https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks) for various scenarios: [`.githooks`](.githooks)
   - [Prettier](https://prettier.io/) configuration: [`prettier.config.js`](prettier.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
   - [commitlint](https://github.com/marionebl/commitlint) configuration: [`commitlint.config.js`](commitlint.config.js), and integration via [npm scripts](package.json) and [git hooks](.githooks)
+- **Python Tooling**
+  - [Black](https://black.readthedocs.io/en/stable/) configuration: [`pyproject.toml`](pyproject.toml), and integration via a [Makefile](Makefile) and [git hooks](.githooks)
+  - A [Makefile](Makefile) for Python packages development, inspired by npm run-scripts.
+  - [twine](https://twine.readthedocs.io/en/latest/) for Python package publishing.
+  - [mypy](http://mypy-lang.org/) and [flake8](https://flake8.pycqa.org/en/latest/) for Python static analysis.
 - **Documentation**
   - [Browser support targets](docs/targets.md#browser-support)
   - [Accessibility targets](docs/targets.md#accessibility-targets)

@@ -15,6 +15,8 @@ CSS_STAGED=$(grep -E '.(css|scss)$' <<< "$STAGED" || true)
 SNAPSHOT_STAGED=$(grep -E '.snap$' <<< "$STAGED" || true)
 PRETTIER_STAGED=$(grep -E '.(md|css|scss|js|json|json5|yaml|yml|html)$' <<< "$STAGED" || true)
 PRETTIER_FULLY_STAGED=$(grep -E '.(md|css|scss|js|json|json5|yaml|yml|html)$' <<< "$FULLY_STAGED" || true)
+PY_STAGED=$(grep -E '.(py|pyi)$' <<< "$STAGED" || true)
+PY_FULLY_STAGED=$(grep -E '.(py|pyi)$' <<< "$FULLY_STAGED" || true)
 
 # Uncomment, and add more variables to the list, for debugging help.
 # tr ' ' '\n' <<< "STAGED $STAGED PATCH_STAGED $PATCH_STAGED FULLY_STAGED $FULLY_STAGED JS_STAGED $JS_STAGED

@@ -4,3 +4,5 @@ node_modules
 coverage_html_report
 .pytest_cache
 .mypy_cache
+build
+dist
