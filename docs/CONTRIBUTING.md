@@ -39,7 +39,7 @@ This project uses [Prettier](https://prettier.io/) and [ESLint](https://eslint.o
 
 ## Branching
 
-Create your own branches from `master` and use a descriptive prefix:
+Create your own branches from `main` and use a descriptive prefix:
 
 ```sh
 # For bug fixes, ideally finishing with the ticket number.
