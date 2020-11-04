@@ -21,6 +21,8 @@
   schedule: ["every weekend"],
   // Silently merge updates without PRs
   automergeType: "branch",
+  // Limit the number of consecutive PRs
+  prHourlyLimit: 2,
   node: {
     major: {
       enabled: true,
