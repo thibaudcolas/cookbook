@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# https://sipb.mit.edu/doc/safe-shell/.
+set -eu -o pipefail
+
 # https://gist.github.com/apexskier/efb7c1aaa6e77e8127a8
 # Deploy hooks stored in your git repo to everyone!
 #
