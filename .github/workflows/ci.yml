@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+    branches-ignore:
+      - "gh-pages"
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: nvm
+        run: echo "##[set-output name=NVMRC;]$(cat .nvmrc)"
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: "${{ steps.nvm.outputs.NVMRC }}"
+      - run: npm install --no-optional --no-audit --no-fund --progress=false
+      # Test Git hooks in CI, to make sure script upgrades do not break them.
+      - run: npm run prepare
+      - run: ./.git/hooks/pre-commit
+      # Test commit message validation in CI.
+      - run: git log -1 --pretty=%B >> latest.log && ./.git/hooks/commit-msg latest.log
+      - run: npm run test:ci
+      - run: npx danger ci
+        env:
+          DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,4 +1,4 @@
-# Cookbook [![Build Status](https://travis-ci.org/thibaudcolas/cookbook.svg?branch=main)](https://travis-ci.org/thibaudcolas/cookbook)
+# Cookbook [![Build status](https://github.com/thibaudcolas/cookbook/workflows/CI/badge.svg)](https://github.com/thibaudcolas/cookbook/actions)
 
 > 📚🍳 Recipes and best practices for awesome digital teams
 
