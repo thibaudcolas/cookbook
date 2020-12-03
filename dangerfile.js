@@ -2,12 +2,12 @@ const { danger, message, warn, fail, schedule } = require("danger");
 const isLocal = !danger.github;
 
 if (!isLocal) {
-  const hasLabels = danger.github.issue.labels.length !== 0;
+  const hasLabels = danger.github.pr.labels.length !== 0;
   const isEnhancement =
-    danger.github.issue.labels.some((l) => l.name === "enhancement") ||
+    danger.github.pr.labels.some((l) => l.name === "enhancement") ||
     danger.github.pr.title.includes("feature");
   const isBug =
-    danger.github.issue.labels.some((l) => l.name === "bug") ||
+    danger.github.pr.labels.some((l) => l.name === "bug") ||
     danger.github.pr.title.includes("fix") ||
     danger.github.pr.title.includes("bug");
 
