@@ -28,7 +28,7 @@
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "danger": "10.6.6",
-    "prettier": "2.3.2"
+    "prettier": "2.4.0"
   },
   "scripts": {
     "prepare": "./.githooks/install.sh",
