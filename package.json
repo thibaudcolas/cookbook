@@ -27,7 +27,7 @@
   "devDependencies": {
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
-    "danger": "10.7.0",
+    "danger": "10.7.1",
     "prettier": "2.4.1"
   },
   "scripts": {
