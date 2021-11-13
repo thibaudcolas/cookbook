@@ -49,7 +49,7 @@ setup(
             "isort==4.2.5",
             "flake8==3.7.8",
             "mypy==0.770",
-            "pytest==5.4.2",
+            "pytest==5.4.3",
             "coverage==5.1",
         ]
     },
