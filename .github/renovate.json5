@@ -30,6 +30,9 @@
     // https://renovatebot.com/docs/node/#configuring-support-policy
     supportPolicy: ["current"],
   },
+  vulnerabilityAlerts: {
+    automerge: true,
+  },
   packageRules: [
     // Node packages.
     { packageNames: ["prettier"], groupName: "prettier", automerge: true },
