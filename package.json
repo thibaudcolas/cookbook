@@ -25,7 +25,7 @@
     "styleguide"
   ],
   "devDependencies": {
-    "@commitlint/cli": "17.0.0",
+    "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
     "danger": "11.0.7",
     "prettier": "2.6.2"
