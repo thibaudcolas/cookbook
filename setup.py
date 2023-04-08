@@ -48,7 +48,7 @@ setup(
             "black==23.3.0",
             "isort==5.12.0",
             "flake8==6.0.0",
-            "mypy==1.1.1",
+            "mypy==1.2.0",
             "pytest==7.2.2",
             "coverage==7.2.3",
         ]
