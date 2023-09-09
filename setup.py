@@ -50,7 +50,7 @@ setup(
             "flake8==6.1.0",
             "mypy==1.5.1",
             "pytest==7.4.1",
-            "coverage==7.3.0",
+            "coverage==7.3.1",
         ]
     },
     classifiers=[
